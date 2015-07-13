@@ -1,0 +1,140 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  width: 600px;
+}
+
+div {
+  /*background-image: url();*/
+  background-size: cover;
+  clear:both;
+}
+#all{
+background-image:url(https://2shopper.files.wordpress.com/2013/06/candy-store-wallpapers.jpg);
+height: 200px;
+border-radius: 5%;
+border: solid hotpink 10px;
+}
+#sucker{
+height: 200px;
+background-image: url(http://www.wikihow.com/images/9/9a/Lollipops_in_candy_store.jpg);
+border-radius: 5%;
+border: solid  #09ff00 10px;
+}
+#cocktails{
+height: 200px;
+background-image: url(http://www.tablespoon.com/-/media/Images/Articles/PostImages/2012/08/week5/2012-08-30-RUP-FishbowlPunch_Step3.jpg);
+border-radius: 5%;
+border: solid hotpink 10px;
+}
+
+p {
+ /*color: rgba(255,255,255,1);*/
+color: white;
+font-size: 20px;
+font-family: 'Lobster', cursive;
+}
+
+.about {
+	color: red;
+	text-decoration: none;
+}
+.logo {
+	height: 59px;
+	/*text-align: center;*/
+	background: url(coollogo_com-303876533.gif) no-repeat
+0 0;
+float: left;
+padding-right: 150px;
+padding-left: 80px;
+}
+#windy{
+	text-align:center;
+	color:#09ff00;
+}
+nav{
+	float: right;
+	padding-left: 15px;
+}
+nav ul{
+	list-style-type: none
+	text-align: right;
+	background-color: transparent;
+	padding: 20px;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #09ff00;
+	padding: 20px;
+	font-family: cursive;
+	font-size: 15px;
+	font-weight: 900;
+}
+a:hover{
+	color: hotpink;
+}
+.butt{
+	border: 3px solid hotpink ;
+	box-shadow: 5px;
+	border-radius: 30%;
+	background-color: transparent;
+}
+#contact{
+	text-align: center;
+}
+
+h1>img{
+	color: hotpink;
+	border: 3px solid;
+	border-radius: 50%;
+	height:450px;
+	width: 400px;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+#cc, #ii, #aa{
+	background-color: grey;
+}
+.ll {
+	display:block;
+	color: #09ff00;
+	font-family: arial;
+	
+}
+#fc{
+	padding-top: 20px;
+}
+#h3{
+	padding-top: -20px;
+	font-size: 25px;
+	color:#09ff00;
+}
+#me{
+	color: #09ff00;
+	border: 3px solid;
+	border-radius: 50%;
+	height:300px;
+	width: 200px;
+	vertical-align: middle;
+	margin-top: 40px;
+	float:left;
+	margin-right: 40px;
+}
+#bio{
+	text-indent: 3em;
+	color: hotpink;
+	padding-top: 170px;
+	font-family: 'Shadows Into Light', cursive;
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: grey;}
+    }
+ @media screen and (max-width: 600px)  {
+    #all, #sucker, #cocktails{ 
+    	width: 400px;
+    height: 150px; 
+	}}
